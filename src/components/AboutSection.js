@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import HeroImg from '../assets/images/hailyOne.jpg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -80,7 +80,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a website designer and developer from Arakan Army. I create
+            I am a website designer and developer from Arakan. I create
             professional websites. I love art and always try to show unique
             views to the audience through my design.
           </PText>
@@ -90,7 +90,7 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+          <img className="aboutImg" src={HeroImg} alt="Img" />
         </div>
       </div>
     </AboutSectionStyles>

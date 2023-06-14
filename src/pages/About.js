@@ -91,10 +91,7 @@ export default function About() {
                   design stuff with my unique point of view. I also love to
                   create things that can be usefull to others.
                   <br /> <br />
-                  I started coding in Arakan Army(AA). Coding is also an art for
-                  me. I love it and now I have the opportunity to design along
-                  with the coding. I find it really interesting and I enjoyed
-                  the process a lot.
+                  I started coding in Arakan. Coding is also an art for me.
                   <br />
                   <br />
                   My vision is to make the Fatherland a better place. Now almost

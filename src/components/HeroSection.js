@@ -20,14 +20,25 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-bottom: -32rem;
     position: relative;
     span {
       display: inline-block;
       width: 100%;
     }
     .hero__name {
+      transform: rotate(-90deg);
+      margin-left: -80rem;
       font-family: 'Montserrat SemiBold';
+      letter-spacing: 0.5rem;
+      font-size: 7rem;
+      color: var(--white);
+    }
+    .hero__last__name {
+      transform: rotate(90deg);
+      margin-right: -80rem;
+      font-family: 'Montserrat SemiBold';
+      letter-spacing: 0.5rem;
       font-size: 7rem;
       color: var(--white);
     }
@@ -37,7 +48,7 @@ const HeroStyles = styled.div`
     width: 100%;
     height: 600px;
     margin: 0 auto;
-    border: 2px solid var(--gray-1);
+    border: 2px solid red;
   }
   .hero__info {
     margin-top: -18rem;
@@ -154,29 +165,27 @@ export default function HeroSection() {
       <div className="hero">
         <div className="container">
           <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Than Zaw Aou</span>
+            <span className="hero__name">Revo</span>
+            <span className="hero__last__name">Coder</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I'm a
-              <span style={{ color: 'red', fontWeight: 'bold' }}>
+              <span>
                 <Typewriter
-                  words={[' Soldier', ' Fullstack Developer', ' Photographer']}
+                  words={[' Fullstack Developer']}
                   loop={Infinity}
                   cursor
-                  cursorStyle="_"
+                  cursorStyle="😍😁"
                   typeSpeed={70}
                   deleteSpeed={50}
                   delaySpeed={1000}
                 />
               </span>
-              <h1>In Arakan Army.</h1>
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button btnText="Hire Me" btnLink="/contact" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
@@ -187,7 +196,7 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="http://facebook.com/unknown.coder01/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -196,7 +205,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="http://twitter.com/unknown.coder01"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -205,7 +214,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="http://isntagram.com/unknown.coder01"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -214,7 +223,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="http://unkcoder.com"
                     target="_blank"
                     rel="noreferrer"
                   >

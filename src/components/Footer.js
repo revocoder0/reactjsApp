@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Than Zaw Aou</h1>
           <PText>
-            A web designer and developer from Arakan Army, Arakan. I always make
+            A web designer and developer from Ponnagyun, Arakan. I always make
             websites that have unique designs and also has a good performance
             rate.
           </PText>
@@ -100,8 +100,8 @@ export default function Footer() {
                 path: 'tel:+959443382250',
               },
               {
-                title: 'thanzawaou@gmail.com',
-                path: 'mailto:thanzawaou@gmail.com',
+                title: 'thanzawaou@outlook.com',
+                path: 'mailto:thanzawaou@outlook.com',
               },
               {
                 title: 'Tankhoe Village, Ponnagyun, Arakan',
@@ -140,7 +140,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              Arakkha
+              Unknown
             </a>
           </PText>
         </div>
